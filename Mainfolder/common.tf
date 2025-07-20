@@ -5,14 +5,9 @@ terraform {
       version = "4.26.0"
     }
   }
-backend "azurerm" {
-  resource_group_name = "rg-najim"
-  storage_account_name = "uidai"
-    container_name       = "sttfile"
-    key                 = "frs3.tfstate"
-}
+
 }
 provider "azurerm" {
   features {}
-  subscription_id = "619a8e9b-3e02-4b05-b917-d0590eb69cf5"
+  subscription_id = "a17cb07c-9570-4b4a-a878-951e4ce8b011"
 }
